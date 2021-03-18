@@ -66,5 +66,6 @@ public class Operators {
 		int result4 = b++ + 10; // a값을 연산에 사용한 후 값 증가 (후치)
 		System.out.println("++a + 10 =" + result3);
 		System.out.println("b++ + 10 =" + result4);
+
 	}
 }
