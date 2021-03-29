@@ -1,8 +1,8 @@
-package 박기웅.basic.day09;
+package 박기웅.basic.day10;
 
 public class StarCraft2 {
     public static void main(String[] args) {
-
+        // 인터페이스 기반으로 스타크래프트의 유닛을 정의해 봄
 
         Scv2 s = new Scv2();
         System.out.print("SCV의 체력 " + s.hp);
@@ -55,11 +55,13 @@ protected int gas;
 public Terran2() { }
 
 }
+// 추상클래스에서 정의했던 추상메서드를
+// 독립적인 코드들로 분리함 -> 인터페이스
 
 interface Option {
 
     void attack();
-    void move();
+    void move(); // abstract public 생략 가능
     void specialAbility();
 
 }
