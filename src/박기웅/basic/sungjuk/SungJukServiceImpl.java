@@ -20,8 +20,8 @@ public class SungJukServiceImpl implements SungJukService{
     
     
     @Override
-    public void displayMeun() {
-        String displaymeun =
+    public void displayMenu() {
+        String displaymenu =
                 "------------------------\n"
                         + "    성적 프로그램 v3  \n"
                         + "------------------------\n"
@@ -33,7 +33,7 @@ public class SungJukServiceImpl implements SungJukService{
                         + "0. 프로그램 종료 	 	 \n"
                         + "------------------------\n"
                         + " 작업을 선택 하세요 : ";
-        System.out.println(displaymeun);
+        System.out.println(displaymenu);
     }
 
     @Override
